@@ -9,6 +9,7 @@ Estamos procurando desenvolvedores para 4 areas: front-end, back-end, iOS, Andro
 Voce poderá se increver em mais de uma area para realização dos testes, porem o prazo para entrega será o mesmo independente das areas em que você se increveu.
 
 Carga horaria: 25 horas
+
 Bolsa: a combinar (acima da média do mercado)
 
 
