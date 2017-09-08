@@ -29,6 +29,7 @@ Para validar se voce se inscreveu corretamente basta analisar a chave **status**
 
 ### 1. Front-end ###
 Requisitos necessarios:
+
 - HTML
 - CSS
 - JS
@@ -37,6 +38,7 @@ Requisitos necessarios:
 - Ingles intermediario (necessário conseguir ler textos tecnicos e assistir video aulas em ingles) 
 
 Diferenciais:
+
 - Angular 2 ou algum framework (AngularJS, React, Vue, etc)
 - Git
 - MVC
@@ -47,6 +49,7 @@ Diferenciais:
 
 ### 2. Back-end ###
 Requisitos necessarios:
+
 - Python ou Ruby
 - Banco de dados SQL
 - Banco de dados NOSQL
@@ -56,6 +59,7 @@ Requisitos necessarios:
 - Ingles intermediario (necessário conseguir ler textos tecnicos e assistir video aulas em ingles) 
 
 Diferencias:
+
 - Web2py, Flask, Rails ou algum framework (Express, Django, etc)
 - Git
 - MVC
@@ -68,6 +72,7 @@ Diferencias:
 
 ### 3. Android ###
 Requisitos necessarios:
+
 - Android Studio
 - Java
 - Gradle
@@ -76,6 +81,7 @@ Requisitos necessarios:
 - Ingles intermediario (necessário conseguir ler textos tecnicos e assistir video aulas em ingles) 
 
 Diferencias:
+
 - Git
 - MVC ou MVP
 - REST API
@@ -84,6 +90,7 @@ Diferencias:
 
 ### 4. iOS ###
 Requisitos necessarios:
+
 - Xcode
 - Swift ou Objective-C
 - Cocoa Pods
@@ -92,6 +99,7 @@ Requisitos necessarios:
 - Ingles intermediario (necessário conseguir ler textos tecnicos e assistir video aulas em ingles) 
 
 Diferencias:
+
 - Git
 - MVC
 - REST API
