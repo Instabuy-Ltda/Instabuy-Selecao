@@ -8,7 +8,7 @@ Estamos procurando desenvolvedores para 4 areas: **front-end, back-end, iOS, And
 
 O candidato poderá se increver em mais de uma area para realização dos testes, porem o prazo para entrega será o mesmo independente de quantas areas foram selecionadas.
 
-Carga horária: 25 horas
+Carga horária: 25 horas (flexíveis)
 
 Bolsa: a combinar (acima da média do mercado)
 
