@@ -1,7 +1,7 @@
 # Processo seletivo desenvolvedor Instabuy #
 
 Nós da Instabuy estamos expandindo e buscando profissionais para vagas de desenvolvimento. 
-A vaga é para estágio e o profissional deve ser proativo, ter boa relação interpessoal e vontade de aprender e desenvolver novos conhecimentos.
+A vaga é para **estágio** e o profissional deve ser proativo, ter boa relação interpessoal e vontade de aprender e desenvolver novos conhecimentos.
 
 O processo será divido em 3 etapas: inscrição, testinho e entrevistas.
 Estamos procurando desenvolvedores para 4 areas: **front-end, back-end, iOS, Android**.
