@@ -39,9 +39,9 @@ Desenvolver sistema onde seja possivel executar CRUD de pessoas e endereços atr
 Para cada method da request deverá ser feita uma funcao diferente.
 
 - GET: retornar os dados de uma pessoa/endereço. Parametros enviados via query.
-- PUT: adicionar uma pessoa/endereço. Parametros enviados via body.
+- POST: adicionar uma pessoa/endereço. Parametros enviados via body.
 - DELETE: remove uma pessoa/endereço. Parametros enviados via body.
-- POST: atualiza os dados de uma pessoa/endereço. Parametros enviados via body.
+- PUT: atualiza os dados de uma pessoa/endereço. Parametros enviados via body.
 
 
 #### Pessoa ####
@@ -75,7 +75,7 @@ Abaixo segue-se algums exemplos de comportamentos esperados.
 Request para adicionar uma pessoa nova:
 
 		url: http://localhost/person
-		method: PUT
+		method: POST
 		params: {
 			name : "Cayke Prudente",
 			age : 24,
@@ -92,7 +92,7 @@ Resposta esperada:
 Request para atualizar idade de uma pessoa cujo ID = 0001:
 
 		url: http://localhost/person
-		method: POST
+		method: PUT
 		params: {
 			id : 0001,
 			age : 25
@@ -106,7 +106,7 @@ Resposta esperada:
 Request para adicionar um endereço para uma pessoa cujo ID = 0001:
 
 		url: http://localhost/address
-		method: PUT
+		method: POST
 		params: {
 			zipcode: "70200-020",
 			state: "DF",
