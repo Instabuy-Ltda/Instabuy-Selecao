@@ -105,7 +105,7 @@ Resposta esperada:
 #### 3. Adicionar endereço ####
 Request para adicionar um endereço para uma pessoa cujo ID = 0001:
 
-		url: http://localhost/person
+		url: http://localhost/address
 		method: PUT
 		params: {
 			zipcode: "70200-020",
@@ -120,3 +120,35 @@ Resposta esperada:
 
 		Identificacao de sucesso ou erro
 		Em caso de sucesso, retornar o ID do endereço. 
+		
+#### 4. Ler enderecos de um usuario ####
+Request para ler os endereços de uma pessoa cujo ID = 0001:
+
+		url: http://localhost/address
+		method: GET
+		params: {
+			person_id: 0001
+		}
+
+Resposta esperada:
+
+		Identificacao de sucesso ou erro
+		Em caso de sucesso, retornar a lista de endereços. 
+		params: [{
+			zipcode: "70200-020",
+			state: "DF",
+			city: "Brasilia",
+			street: "Sqs 404 bloco B",
+			number: 107,
+			person_id: 0001
+		},
+		{
+			zipcode: "73289-080",
+			state: "DF",
+			city: "Brasilia",
+			street: "Sqs 416 bloco D",
+			number: 504,
+			person_id: 0001
+		}
+		]
+		
