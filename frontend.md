@@ -28,10 +28,10 @@ O candidato poderá utilizar frameworks e libs de terceiros desde que **não** s
 
 ## Request ##
 
-URL:  **https://instabuy.com.br/apiv2_2/**
-ENDPOINT: **product.json**
-METHOD: **GET**
-Params: **subcategory_id = 57eec92f072d415b67c24175**
+- URL:  **https://instabuy.com.br/apiv2_2/**
+- ENDPOINT: **product.json**
+- METHOD: **GET**
+- Params: **subcategory_id = 57eec92f072d415b67c24175**
 
 ## Response ##
 
