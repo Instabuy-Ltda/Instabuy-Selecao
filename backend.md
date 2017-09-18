@@ -22,3 +22,101 @@ O Instabuy deseja boa sorte a todos. Estamos ansiosos para trabalharmos juntos!!
 
 
 # Testinho Back-end #
+O testinho consiste em desenvolver um sistema **(aplicação, banco de dados e API)** que rodará localmente. Para tal o candidato podera utlizar as linguagens de programacao **Python ou Ruby**.
+
+O candidato poderá utilizar frameworks e libs de terceiros desde que seja documentado todos os passos necessarios para instalacao dos pacotes.
+
+A aplicacao deverá rodar em ambientes **UNIX**, MacOS ou Ubuntu.
+
+
+## O que fazer ##
+
+Desenvolver sistema onde seja possivel executar CRUD de pessoas e endereços atraves de uma **API REST** com formato **JSON**
+
+
+### Request Method e funcoes ###
+
+Para cada method da request deverá ser feita uma funcao diferente.
+
+- GET: retornar os dados de uma pessoa/endereço. Parametros enviados via query.
+- PUT: adicionar uma pessoa/endereço. Parametros enviados via body.
+- DELETE: remove uma pessoa/endereço. Parametros enviados via body.
+- POST: atualiza os dados de uma pessoa/endereço. Parametros enviados via body.
+
+
+#### Pessoa ####
+Cada pessoa deverá ter os dados descritos abaixo. Na request os parametros terao o mesmo nome como descrito abaixo.
+
+- id: (string ou int) Identificador do usuario gerado pelo sistema.
+- name: (string) Nome da pessoa.
+- age: (int) Idade da pessoa.
+- cpf: (int) Cpf da pessoa. **o cpf deverá ser validado pela aplicacao. Caso cpf seja invalido, retornar uma mensagem de erro na response.**
+- addresses: (list of address) Lista de endereços da pessoa.
+
+
+#### Endereço ####
+Cada endereço deverá ter os dados descritos abaixo. Na request os parametros terao o mesmo nome como descrito abaixo.
+
+O endereço deverá ser relacionado a uma pessoa. Ao adicionar um endereço deverá ser passado o ID da pessoa em questao.
+
+- id: (string ou int) Identificador do endereço gerado pelo sistema.
+- zipcode: (string) Cep do endereço.
+- state: (string) Estado.
+- city: (string) Cidade.
+- street: (string) Rua
+- number: (int) numero da casa.
+- person_id: (string ou int) Identificador da pessoa que cadastrou esse endereço.
+
+
+### Exemplos praticos ###
+Abaixo segue-se algums exemplos de comportamentos esperados.
+
+#### 1. Adicionar pessoa ####
+Request para adicionar uma pessoa nova:
+
+		url: http://localhost/person
+		method: PUT
+		params: {
+			name : "Cayke Prudente",
+			age : 24,
+			cpf : 03487448114,
+		}
+
+Resposta esperada:
+
+		Identificacao de sucesso ou erro
+		Em caso de sucesso, retornar o ID da pessoa. 
+		
+
+#### 2. Atualizar pessoa ####
+Request para atualizar idade de uma pessoa cujo ID = 0001:
+
+		url: http://localhost/person
+		method: POST
+		params: {
+			id : 0001,
+			age : 25
+		}
+
+Resposta esperada:
+
+		Identificacao de sucesso ou erro
+		
+#### 3. Adicionar endereço ####
+Request para adicionar um endereço para uma pessoa cujo ID = 0001:
+
+		url: http://localhost/person
+		method: PUT
+		params: {
+			zipcode: "70200-020",
+			state: "DF",
+			city: "Brasilia",
+			street: "Sqs 404 bloco B",
+			number: 107,
+			person_id: 0001
+		}
+
+Resposta esperada:
+
+		Identificacao de sucesso ou erro
+		Em caso de sucesso, retornar o ID do endereço. 
