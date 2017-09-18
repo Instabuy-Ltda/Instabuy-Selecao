@@ -36,11 +36,13 @@ Params: **subcategory_id = 57eec92f072d415b67c24175**
 ## Response ##
 
 Todas as responses possuem 3 campos : status, data, type.
+
 - Status: ’success’ ou ‘error’
 - data: conteudo da response (pode ser dictionary, list, string, …)
 - type: tipo do valor em data
 
 Dados revelantes request product.json:
+
 - id : id do produto
 - name: nome do produto
 - brand: marcar do produto
@@ -50,10 +52,13 @@ Dados revelantes request product.json:
 	
 Para fazer download das imagens deve-se fazer o append da url do bucket da amazon com a chave da imagem.
 Download foto do produto:
+
 **https://s3-us-west-2.amazonaws.com/ib.image.YYYY/X-{{product.photo}}**
+
 Onde os pares YYYY e X podem ser: small e s, medium e m, big e b, large e l. Essa chaves sao utilizadas para identificar qual resolucao da imagem.
 
 Exemplo de url da imagem do produto com resoulucao media cuja thumb = 20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg
+
 https://s3-us-west-2.amazonaws.com/ib.image.medium/m-20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg
 
 
