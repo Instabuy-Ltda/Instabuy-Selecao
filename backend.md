@@ -134,7 +134,7 @@ Resposta esperada:
 
 		Identificacao de sucesso ou erro
 		Em caso de sucesso, retornar a lista de endereços. 
-		params: [{
+		Response: [{
 			zipcode: "70200-020",
 			state: "DF",
 			city: "Brasilia",
