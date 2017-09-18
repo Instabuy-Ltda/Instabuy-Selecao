@@ -45,7 +45,7 @@ Dados revelantes request product.json:
 - id : id do produto
 - name: nome do produto
 - brand: marcar do produto
-- thumb: foto principal do produtophotos: array com fotos do produto
+- thumb: foto principal do produto
 - pc: Array de controllers de preço
 	- valid_price : valor do produto
 	
