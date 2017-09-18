@@ -48,6 +48,7 @@ Dados revelantes request product.json:
 - brand: marcar do produto
 - thumb: foto principal do produtophotos: array com fotos do produto
 - pc: Array de controllers de preço
+
 	-valid_price : valor do produto
 	
 Para fazer download das imagens deve-se fazer o append da url do bucket da amazon com a chave da imagem.
