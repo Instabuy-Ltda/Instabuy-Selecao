@@ -22,7 +22,7 @@ O Instabuy deseja boa sorte a todos. Estamos ansiosos para trabalharmos juntos!!
 
 
 # Testinho Back-end #
-O testinho consiste em desenvolver um sistema **(aplicação, banco de dados e API)** que rodará localmente. Para tal o candidato podera utlizar as linguagens de programacao **Python ou Ruby**.
+O testinho consiste em desenvolver um sistema **(aplicação, banco de dados e API)** que rodará localmente. Para tal o candidato podera utlizar as linguagens de programacao **Python ou Ruby**. O banco de dados poderá ser **MongoDB ou MySQL**.
 
 O candidato poderá utilizar frameworks e libs de terceiros desde que seja documentado todos os passos necessarios para instalacao dos pacotes.
 
