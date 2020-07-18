@@ -49,7 +49,7 @@ https://docs.instabuy.com.br/#layout
 	
 Para fazer download das imagens deve-se fazer o append da url padrão com a chave da imagem.
 Download foto banner:
-**https://assets.instabuy.com.br/ib.store.banner/bnr-{{banner.image}}*
+**https://assets.instabuy.com.br/ib.store.banner/bnr-{{banner.image}}**
 
 Download foto do produto:
 
@@ -59,7 +59,7 @@ Onde os pares YYYY e X podem ser: small e s, medium e m, big e b, large e l. Ess
 
 Exemplo de url da imagem do produto com resoulucao media cuja thumb = 20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg
 
-https://assets.instabuy.com.br/ib.item.image.medium/m-20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg
+**https://assets.instabuy.com.br/ib.item.image.medium/m-20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg**
 
 
 
