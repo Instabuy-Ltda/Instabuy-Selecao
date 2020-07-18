@@ -48,9 +48,12 @@ Dados revelantes da request podem ser consultados pela documentação:
 https://docs.instabuy.com.br/#layout
 	
 Para fazer download das imagens deve-se fazer o append da url padrão com a chave da imagem.
+Download foto banner:
+**https://assets.instabuy.com.br/ib.store.banner/bnr-{{banner.image}}*
+
 Download foto do produto:
 
-** https://assets.instabuy.com.br/ib.item.image.YYYY/X-{{product.photo}}**
+**https://assets.instabuy.com.br/ib.item.image.YYYY/X-{{product.photo}}**
 
 Onde os pares YYYY e X podem ser: small e s, medium e m, big e b, large e l. Essa chaves sao utilizadas para identificar qual resolucao da imagem.
 
