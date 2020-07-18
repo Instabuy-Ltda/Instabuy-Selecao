@@ -1,110 +1,66 @@
-# Processo seletivo desenvolvedor Instabuy #
+# Processo seletivo desenvolvedor front-end Instabuy Julho 2020 #
 
-A Instabuy está expandindo e está em busca de profissionais para vagas de desenvolvimento. 
-A vaga é para **estágio** e o profissional deve ser proativo, ter boa relação interpessoal e vontade de aprender e desenvolver novos conhecimentos.
+Olá candidato, nessa fase você terá seus conhecimentos testados. 
+Recomendamos que utilize boas práticas de programação e desenvolva um código bem estruturado. 
 
-O processo será divido em 3 etapas: inscrição, testinho e entrevistas.
-Estamos procurando desenvolvedores para 4 areas: **front-end, back-end, iOS, Android**.
+## Prazo para entrega ##
+**27 de julho de 2020, Segunda-feira, até 23:59.** 
 
-O candidato poderá se increver em mais de uma area para realização dos testes, porem o prazo para entrega será o mesmo independente de quantas areas foram selecionadas.
-
-Carga horária: 25 horas (flexíveis)
-
-Bolsa: a combinar (acima da média do mercado)
-
-Local: CDT/UnB - Brasília DF
+Sob hipótese alguma serão aceitos testes fora do prazo.
 
 
-## Inscrição ##
+## O que enviar ##
 
-Para se inscrever no processo, o candidato deverá fazer o cadastro em nosso servidor. Para tal deve-se seguir os passos:
+O candidato deverá enviar o **código** que foi desenvolvido. Não será permitida utilização de frameworks que necessitem instalação por parte do avaliador. 
+Pode-se utilizar bibliotecas js desde que não seja necessário nenhum passo adicional para execução do projeto.
+Projetos que não executem ao abrir o index.html serão desconsiderados.
+O candidato deverá enviar um email para **cayke@instabuy.com.br** até o prazo determinado acima. No email o assunto deverá ser **"Dev Front Jul-20"**. 
+Emails com outro assunto serão desconsiderados.
+No email explicitar seu **nome e telefone para contato**.
+Tambem é necessário enviar seu **curriculo e/ou portfolio**.
 
-- Fazer uma request para o endpoint **https://instabuy.com.br/apiv2_2/selecao.json** utlizando o method **POST**.
-- Enviar na request, via body, os seguintes paramentros: **name, email, jobs**.
-
-	- name - String : Nome completo do candidato
-	- email - String : Email do candidato
-	- jobs - [String] Array with Strings : Lista contendo as areas que o candidato deseja se inscrever. Os valores devem ser: **front, back, ios, android**.
-
-Ao fazer a requisição corretamente voce estará automaticamente na fase 2(testinho). Na fase 2 iremos enviar um email para todos os inscritos contendo as informacoes necessarias para execução do testinho.
-Para validar se voce se inscreveu corretamente basta analisar a chave **status** da response. A mesma deverá ser **success**. 
-
-## Areas ##
-
-### 1. Front-end ###
-Requisitos necessários:
-
-- HTML
-- CSS
-- JS
-- Logica de programacao
-- Orientacao a objeto
-- Ingles intermediario (necessário conseguir ler textos tecnicos e assistir video aulas em ingles) 
-
-Diferenciais:
-
-- Angular 2 ou algum framework (AngularJS, React, Vue, etc)
-- Git
-- MVC
-- Typescript
-- jQuery
-- WordPress
+A Instabuy deseja boa sorte a todos. Estamos ansiosos para trabalharmos juntos!!!
 
 
-### 2. Back-end ###
-Requisitos necessários:
+# Testinho Front-end #
 
-- Python ou Ruby
-- Banco de dados SQL
-- Banco de dados NOSQL
-- Logica de programacao
-- Orientacao a objeto
-- Linux
-- Ingles intermediario (necessário conseguir ler textos tecnicos e assistir video aulas em ingles) 
-
-Diferencias:
-
-- Web2py, Flask, Rails ou algum framework (Express, Django, etc)
-- Git
-- MVC
-- MongoDB
-- MySQL
-- REST API
-- JSON
-- AWS
+O teste consiste em fazer uma request para a API do Instabuy e montar uma **tela mostrando os banners e produtos** presentes na response.
+Cada célula de produto deverá conter: **imagem, marca, nome e preço**.
+O candidato poderá utilizar frameworks e libs de terceiros desde que **não** seja necessário nenhuma instalação por parte do avaliador.
 
 
-### 3. Android ###
-Requisitos necessários:
+## Request ##
 
-- Android Studio
-- Java
-- Gradle
-- Logica de programacao
-- Orientacao a objeto
-- Ingles intermediario (necessário conseguir ler textos tecnicos e assistir video aulas em ingles) 
+- URL:  **https://api.instabuy.com.br/apiv3/**
+- ENDPOINT: **layout**
+- METHOD: **GET**
+- Params: **subdomain = organicos**
 
-Diferencias:
+## Response ##
 
-- Git
-- MVC ou MVP
-- REST API
-- JSON
+Todas as responses possuem 3 campos : status, data, type.
+
+- Status: ’success’ ou ‘error’
+- data: conteudo da response (pode ser dictionary, list, string, …)
+- type: tipo do valor em data
+
+Dados revelantes da request podem ser consultados pela documentação:
+https://docs.instabuy.com.br/#layout
+	
+Para fazer download das imagens deve-se fazer o append da url padrão com a chave da imagem.
+Download foto banner:
+**https://assets.instabuy.com.br/ib.store.banner/bnr-{{banner.image}}**
+
+Download foto do produto:
+
+**https://assets.instabuy.com.br/ib.item.image.YYYY/X-{{product.photo}}**
+
+Onde os pares YYYY e X podem ser: small e s, medium e m, big e b, large e l. Essa chaves sao utilizadas para identificar qual resolucao da imagem.
+
+Exemplo de url da imagem do produto com resoulucao media cuja thumb = 20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg
+
+**https://assets.instabuy.com.br/ib.item.image.medium/m-20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg**
 
 
-### 4. iOS ###
-Requisitos necessários:
 
-- Xcode
-- Swift ou Objective-C
-- Cocoa Pods
-- Logica de programacao
-- Orientacao a objeto
-- Ingles intermediario (necessário conseguir ler textos tecnicos e assistir video aulas em ingles) 
 
-Diferencias:
-
-- Git
-- MVC
-- REST API
-- JSON
