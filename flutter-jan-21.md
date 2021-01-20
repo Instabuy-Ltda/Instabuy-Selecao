@@ -63,7 +63,7 @@ Download foto do produto:
 
 Onde os pares YYYY e X podem ser: small e s, medium e m, big e b, large e l. Essa chaves sao utilizadas para identificar qual resolucao da imagem.
 
-Exemplo de url da imagem do produto com resoulucao media cuja thumb = 20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg
+Exemplo de url da imagem do produto com resolucao media cuja thumb = 20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg
 
 **https://assets.instabuy.com.br/ib.item.image.medium/m-20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg**
 
