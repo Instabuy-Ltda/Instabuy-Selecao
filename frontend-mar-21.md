@@ -14,7 +14,7 @@ Sob hipótese alguma serão aceitos testes fora do prazo.
 
 ## O que enviar ##
 
-O candidato deverá enviar o **código** que foi desenvolvido, **preferencialmente em Angular**. 
+O candidato deverá enviar o **link do github** com o código que foi desenvolvido, **preferencialmente em Angular**. 
 Não será permitida utilização de frameworks que necessitem instalação por parte do avaliador. 
 
 Pode-se utilizar bibliotecas js desde que não seja necessário nenhum passo adicional para execução do projeto.
