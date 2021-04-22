@@ -3,6 +3,8 @@
 Olá candidato, nessa fase você terá seus conhecimentos testados. 
 Recomendamos que utilize boas práticas de programação e desenvolva um código bem estruturado. 
 
+Para mais informações da vaga acesse: https://www.facebook.com/job_opening/1418391208520617/?source=share
+
 ## Prazo para entrega ##
 **2 de maio de 2020, Domingo, até 23:59.** 
 
