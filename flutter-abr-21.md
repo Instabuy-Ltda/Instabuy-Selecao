@@ -4,7 +4,7 @@ Olá candidato, nessa fase você terá seus conhecimentos testados.
 Recomendamos que utilize boas práticas de programação e desenvolva um código bem estruturado. 
 
 ## Prazo para entrega ##
-**27 de abril de 2020, Terça-feira, até 23:59.** 
+**2 de maio de 2020, Domingo, até 23:59.** 
 
 Sob hipótese alguma serão aceitos testes fora do prazo.
 
@@ -15,7 +15,7 @@ O candidato deverá enviar o **código** que foi desenvolvido. Não será permit
 Pode-se utilizar bibliotecas(maven/cocoa pods) desde que não seja necessário nenhum passo adicional para execução do projeto pelo avaliador.
 Projetos que não executem ao rodar o RUN no Android Studio/Xcode serão desconsiderados.
 Códigos aceitos:
-- Flutter (Dart)
+- **Flutter (Dart) - Preferencia**
 - Android Nativo (Java ou Kotlin)
 - iOS Nativo (Obj-C ou Swift)
 
