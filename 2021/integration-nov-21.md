@@ -35,15 +35,22 @@ You will have to read the file, parse the infos and make requests to the Instabu
 
 ## Authentication ##
 We use api-key to authenticate your request.
-Please use the token: **UgjUpN-xUTRXe_47Edmg94MqDb-3a2AJqo1iZPtJu8A** for this test.
+Please use the token below for this test.
+
+```
+UgjUpN-xUTRXe_47Edmg94MqDb-3a2AJqo1iZPtJu8A
+```
+
 For more infos check: https://docs.instabuy.com.br/admin.html#authentication
 
 
 ## Request ##
 
-- BASE URL: **https://api.instabuy.com.br/store/**
-- ENDPOINT: **products**
-- METHOD: **PUT**
+```
+- BASE URL: https://api.instabuy.com.br/store/
+- ENDPOINT: products
+- METHOD: PUT
+```
 
 Relevant request data must be consulted in the our official documentation:
 https://docs.instabuy.com.br/admin.html#products
@@ -58,4 +65,4 @@ https://docs.instabuy.com.br/admin.html#request-response-format
 
 
 ## CSV File ##
-Download the file (here)[https://www.google.com.br]. 
+Download the file [here](https://github.com/Instabuy-Ltda/Instabuy-Selecao/blob/master/assets/items.csv). 
