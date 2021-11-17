@@ -1,4 +1,5 @@
-# Processo seletivo Devs Instabuy #
+# Instabuy developer selection process #
 
-Olá candidato, nesse repositório você encontra instruções para realizar o teste técnico de sua vaga.
+Hello candidate, in this repository you will find instructions to perform the technical test of your vacancy.
 
+In case of doubt, open an issue and our team will answer it as soon as possible.
