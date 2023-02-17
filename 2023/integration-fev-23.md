@@ -31,6 +31,8 @@ Instabuy wishes everyone good luck. We look forward to working together!!!
 
 The test consists of updating products infos from an CSV file.
 You will have to read the file, parse the infos and make requests to the Instabuy API.
+When the program runs, all products from the csv file must be send to Instabuy API.
+There are some lines that contains errors and you should handle that.
 
 
 ## Authentication ##
