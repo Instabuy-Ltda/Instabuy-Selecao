@@ -47,7 +47,7 @@ We use api-key to authenticate your request.
 Please use the token below for this test.
 
 ```
-PX6FTVykRttxHtCK3jNpgE8-r-vqNgpyUzByhgocWMc
+Mq1EWAXiHwraLIQgfq4stmUxKiM6VpC5Xd9o3wuX1Go
 ```
 
 For more infos check: https://docs.instabuy.com.br/admin.html#authentication
