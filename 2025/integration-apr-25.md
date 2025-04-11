@@ -1,77 +1,116 @@
-# Python Integration Developer April 2025 #
 
-Hello candidate, at this stage you will have your knowledge tested.
-We recommend that you use good programming practices and develop well-structured code.
+# 🧪 Python Integration Developer Test – April 2025
 
-## Delivery time ##
-**April 21, 2023, Monday, until 23:59.**
+Hello candidate!  
+At this stage, we will assess your technical skills. We recommend using clean code practices and writing well-structured, readable, and maintainable code.
 
-Under no circumstances will tests be accepted after the deadline.
+---
 
+## 📅 Deadline
 
-## What to send ##
+**April 21, 2025 (Monday) at 23:59 BRT**
 
-The candidate must send the **code** that was developed. The use of frameworks that require installation by the evaluator will not be allowed.
-You can use libraries (pip) as long as no additional steps are needed for the evaluator to carry out the project and the library must be listened on **requirements.txt** file.
-Projects that do not run when running python3 your_main_file.py will be disregarded.
-Accepted codes:
+Submissions sent after the deadline **will not be accepted under any circumstances**.
+
+---
+
+## 🚀 What to Submit
+
+You must send the **developed code**. You are allowed to use libraries installed via `pip`, as long as:
+
+- They are listed in a `requirements.txt` file;
+- No additional installation steps are required by the evaluator.
+
+Your code must run using the command:
+
+```bash
+python3 your_main_file.py
+```
+
+If your code fails to run or requires manual setup, your submission may be disqualified.
+
+**Accepted language:**
 - Python 3
 
-The candidate must send an email to **cayke@instabuy.com.br** by the deadline specified above. In the email the subject should be **"Dev Integracao APR-25"**.
-Emails with another subject will be disregarded.
-In the email, state your **name and contact telephone number**.
-It is also necessary to send your **resume and/or portfolio**.
-It is recommended that you send the github link of the project, and not the files itself.
-We recommend that all of the project code is developed in english.
+### Email Instructions
 
-Instabuy wishes everyone good luck. We look forward to working together!!!
+Send an email to **cayke@instabuy.com.br** with the **subject line**:  
+**Dev Integracao APR-25**
 
+Emails with incorrect subjects will be disregarded.
 
-# Integration Test #
+The email must include:
 
-The test consists of updating products infos from an CSV file.
+- Your **full name** and **contact phone number**  
+- Your **resume and/or portfolio**  
+- (Optional but recommended) A link to your **GitHub repository** for the project
 
-Each line of the file contains infos about a product.
+We recommend writing all source code and comments in **English**.
 
-You will have to read the file, parse the infos and make requests to the Instabuy API.
+---
 
-When the program runs, all products from the csv file must be send to Instabuy API.
+## 🔗 The Challenge
 
-There are some lines that contains errors and you should handle that.
+The objective of this test is to read a CSV file containing product information and send the data to the Instabuy API.
 
-If you have any doubts, you can open an issue in this project and our team will answer it as soon as possible.
+Each line in the CSV contains data for a single product.
 
+Your program must:
 
-## Authentication ##
-We use api-key to authenticate your request.
-Please use the token below for this test.
+1. Read the CSV file;
+2. Parse each product's data;
+3. Make an authenticated `PUT` request to the Instabuy API to update the product;
+4. Handle invalid or malformed lines gracefully.
+
+If you have any questions, feel free to open an issue in the repository — our team will reply as soon as possible.
+
+---
+
+## 🔐 Authentication
+
+We use an API key for authentication.
+
+**Use the following token for this test:**
 
 ```
 4wQK4Hv93kcZB2D_bf9dy38m6wCAq44DFRiMaUUQYPk
 ```
 
-For more infos check: https://docs.instabuy.com.br/admin.html#authentication
+Refer to our [authentication documentation](https://docs.instabuy.com.br/admin.html#authentication) for more information.
 
+---
 
-## Request ##
+## 📡 API Details
 
+- **Base URL:** `https://api.instabuy.com.br/store/`
+- **Endpoint:** `products`
+- **Method:** `PUT`
+
+Refer to the [official documentation](https://docs.instabuy.com.br/admin.html#products) to understand the request payload and required fields.
+
+### Response Format
+
+All responses will contain the following fields:
+
+```json
+{
+  "status": "...",
+  "data": "...",
+  "count": ...,
+  "http_status": ...
+}
 ```
-- BASE URL: https://api.instabuy.com.br/store/
-- ENDPOINT: products
-- METHOD: PUT
-```
 
-Relevant request data must be consulted in the our official documentation:
-https://docs.instabuy.com.br/admin.html#products
+More info: [docs.instabuy.com.br – Request & Response Format](https://docs.instabuy.com.br/admin.html#request-response-format)
 
+---
 
-## Response ##
+## 📄 CSV File
 
-All responses have 4 fields: status, data, count, http_status.
+Download the file [here](https://github.com/Instabuy-Ltda/Instabuy-Selecao/blob/master/assets/items.csv)
 
-Relevant request data must be consulted in the our official documentation:
-https://docs.instabuy.com.br/admin.html#request-response-format
+---
 
-
-## CSV File ##
-Download the file [here](https://github.com/Instabuy-Ltda/Instabuy-Selecao/blob/master/assets/items.csv). 
+Good luck!  
+We’re excited to see your solution and hope to work together soon! 🚀  
+**– Instabuy Team**
