@@ -73,7 +73,7 @@ We use an API key for authentication.
 **Use the following token for this test:**
 
 ```
-4wQK4Hv93kcZB2D_bf9dy38m6wCAq44DFRiMaUUQYPk
+IGs8rlcEb0jUEgsNvzDsatF5gAvQ_8iGde-tZ-iwGFc
 ```
 
 Refer to our [authentication documentation](https://docs.instabuy.com.br/admin.html#authentication) for more information.
