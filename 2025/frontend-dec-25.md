@@ -50,8 +50,10 @@ Envie um e-mail para **cayke@instabuy.com.br** e **joao.jorge@instabuy.com.br** 
 ## O que será avaliado
 
 - **Qualidade do código:** organização, boas práticas, legibilidade
-- **Interface:** fidelidade ao design de referência, responsividade, UX
+- **CSS e Layout:** boas práticas de CSS, visual agradável, responsividade
 - **Raciocínio:** como você estruturou o projeto e resolveu os problemas
+
+> 💡 **Dica:** Os links de referência servem apenas para você entender o contexto e os dados que deve exibir. Não é necessário replicar o design — sinta-se livre para criar seu próprio layout!
 
 ---
 
