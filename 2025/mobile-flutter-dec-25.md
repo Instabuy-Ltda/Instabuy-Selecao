@@ -70,26 +70,26 @@ Todas as respostas contêm três campos:
 
 ### URLs das Imagens
 
-**Banners:**
+#### Imagem do Banner
 ```
-https://assets.instabuy.com.br/ib.store.banner/bnr-{{banner.image}}
-```
-
-**Produtos:**
-```
-https://assets.instabuy.com.br/ib.item.image.{RESOLUÇÃO}/{PREFIXO}-{{product.photo}}
+https://ibassets.com.br/ib.store.banner/bnr-{banner.image}
 ```
 
-**Resoluções disponíveis:**
-- Small: `ib.item.image.small` / prefixo `s-`
-- Medium: `ib.item.image.medium` / prefixo `m-`
-- Big: `ib.item.image.big` / prefixo `b-`
-- Large: `ib.item.image.large` / prefixo `l-`
+#### Imagem do Produto
+```
+https://ibassets.com.br/ib.item.image.{tamanho}/{prefixo}-{product.photo}
+```
+
+| Tamanho | Prefixo | Uso recomendado |
+|---------|---------|-----------------|
+| `small` | `s` | Miniaturas |
+| `medium` | `m` | Cards de produto |
+| `big` | `b` | Página de detalhes |
+| `large` | `l` | Visualização ampliada |
 
 **Exemplo:**
-Para uma imagem com `thumb = 20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg` em resolução média:
 ```
-https://assets.instabuy.com.br/ib.item.image.medium/m-20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg
+https://ibassets.com.br/ib.item.image.medium/m-5b586ad8c98945c597d3d3240c633df5.jpeg
 ```
 
 **Sinta-se à vontade para ir além do solicitado e demonstrar suas habilidades! Consulte a documentação da nossa API para descobrir outros recursos.**
