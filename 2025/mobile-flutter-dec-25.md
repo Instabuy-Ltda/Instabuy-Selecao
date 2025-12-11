@@ -6,9 +6,9 @@ Nesta etapa, você terá a oportunidade de demonstrar seus conhecimentos técnic
 
 ## Prazo de Entrega
 
-**Conforme orientado a você por e-mail.**
+**21 de dezembro de 2025 (domingo) às 23:59**
 
-Não serão aceitos testes entregues fora do prazo estabelecido.
+> ⚠️ Sob nenhuma hipótese serão aceitos testes enviados após o prazo.
 
 ## O Que Entregar
 
@@ -23,7 +23,7 @@ Você deverá enviar o **código-fonte completo** do projeto desenvolvido.
 
 ### Como Enviar
 
-Envie um e-mail para **paulo.rezende@instabuy.com.br** com:
+Envie um e-mail para **cayke@instabuy.com.br** e **paulo.rezende@instabuy.com.br** com:
 - **Assunto:** "PS Dev Mobile" (e-mails com outro assunto serão desconsiderados)
 - **Nome completo e telefone** para contato
 - **Currículo e/ou portfólio**
