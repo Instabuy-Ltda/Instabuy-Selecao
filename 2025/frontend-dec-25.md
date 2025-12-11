@@ -124,12 +124,12 @@ Todas as respostas da API possuem a seguinte estrutura:
 
 #### Imagem do Banner
 ```
-https://assets.instabuy.com.br/ib.store.banner/bnr-{banner.image}
+https://ibassets.com.br/ib.store.banner/bnr-{banner.image}
 ```
 
 #### Imagem do Produto
 ```
-https://assets.instabuy.com.br/ib.item.image.{tamanho}/{prefixo}-{product.photo}
+https://ibassets.com.br/ib.item.image.{tamanho}/{prefixo}-{product.photo}
 ```
 
 | Tamanho | Prefixo | Uso recomendado |
@@ -141,7 +141,7 @@ https://assets.instabuy.com.br/ib.item.image.{tamanho}/{prefixo}-{product.photo}
 
 **Exemplo:**
 ```
-https://assets.instabuy.com.br/ib.item.image.medium/m-20161023214840752541600349dcf4284c2592bd49355774b7b1.jpg
+https://ibassets.com.br/ib.item.image.medium/m-5b586ad8c98945c597d3d3240c633df5.jpeg
 ```
 
 ---
