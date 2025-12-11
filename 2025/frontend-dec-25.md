@@ -8,7 +8,7 @@ Nesta etapa, avaliaremos suas habilidades técnicas através de um desafio prát
 
 ## Prazo de Entrega
 
-**21 de dezembro de 2025 (domingo) às 23:59**
+**17 de dezembro de 2025 (quarta-feira) às 23:59**
 
 > ⚠️ Sob nenhuma hipótese serão aceitos testes enviados após o prazo.
 
