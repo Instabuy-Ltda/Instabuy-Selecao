@@ -34,7 +34,7 @@ If your code fails to run or requires manual setup, your submission may be disqu
 
 ### Email Instructions
 
-Send an email to **cayke@instabuy.com.br** with the **subject line**:  
+Send an email to **paulo.rezende@instabuy.com.br** e **cayke@instabuy.com.br** with the **subject line**:  
 **Dev Integracao JAN-26**
 
 Emails with incorrect subjects will be disregarded.
